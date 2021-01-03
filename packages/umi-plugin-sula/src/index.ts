@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: rodchen
  * @Date: 2020-12-08 09:10:30
- * @LastEditTime: 2021-01-03 20:59:23
+ * @LastEditTime: 2021-01-03 21:41:21
  * @LastEditors: rodchen
  */
 import { join } from 'path';
@@ -11,7 +11,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 export default function (api: IApi) {
   api.describe({
-    key: 'rofo-sula',
+    key: 'rofosula',
     config: {
       schema(joi) {
         return joi.object({
@@ -27,7 +27,7 @@ export default function (api: IApi) {
   });
 
   api.onGenerateFiles(() => {
-    const { locale = {} } = api.config.sula;
+    const { locale = {} } = api.config.rofosula;
     const configProviderTpl = readFileSync(
       join(__dirname, '../template/configProvider.js'),
       'utf-8',
@@ -44,7 +44,7 @@ export default function (api: IApi) {
 
   api.addEntryCodeAhead(() =>
     `
-import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'rofo-sula';
+import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'rofosula';
 
 registerFieldPlugins();
 registerRenderPlugins();

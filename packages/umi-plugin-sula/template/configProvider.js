@@ -6,7 +6,7 @@
  * @LastEditors: rodchen
  */
 import React from 'react';
-import { ConfigProvider } from 'rofo-sula';
+import { ConfigProvider } from 'rofosula';
 import { history } from 'umi';
 
 const baseSeparator = '{{{baseSeparator}}}' || '-';
@@ -18,7 +18,7 @@ function getLocale() {
 
   let locale;
   try {
-    locale = require(`rofo-sula/es/localereceiver/${langFile}`);
+    locale = require(`rofosula/es/localereceiver/${langFile}`);
     locale = locale.default || locale;
   } catch (error) {}
   return locale;

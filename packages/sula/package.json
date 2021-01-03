@@ -1,9 +1,9 @@
 {
-  "name": "rofo-sula",
+  "name": "rofosula",
   "version": "0.0.5",
   "module": "./es/index.js",
   "types": "typings/index.d.ts",
-  "description": "sula",
+  "description": "rofosula",
   "peerDependencies": {
     "@ant-design/icons": "^4.0.0",
     "antd": "^4.0.0",
