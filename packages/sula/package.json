@@ -1,6 +1,6 @@
 {
   "name": "rofo-sula",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "module": "./es/index.js",
   "types": "typings/index.d.ts",
   "description": "sula",
