@@ -1,6 +1,6 @@
 {
   "name": "bs-sula",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "module": "./es/index.js",
   "types": "typings/index.d.ts",
   "description": "bs-sula",
