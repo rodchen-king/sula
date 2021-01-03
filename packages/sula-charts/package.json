@@ -1,5 +1,5 @@
 {
-  "name": "@sula/charts",
+  "name": "@bs-sula/charts",
   "version": "0.0.1",
   "module": "./es/index.js",
   "types": "typings/index.d.ts",
