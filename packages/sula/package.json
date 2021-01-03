@@ -22,5 +22,6 @@
     "es",
     "typings"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "36603c42df866cdffa109359a2596c83e93172c6"
 }
