@@ -1,13 +1,13 @@
 {
   "name": "bs-umi-plugin-sula",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "peerDependencies": {
     "bs-sula": "^0.0.1",
     "umi": "^3.0.0"
   },
   "devDependencies": {
-    "bs-sula": "^0.0.2",
+    "bs-sula": "^0.0.3",
     "umi": "^3.1.3"
   },
   "files": [
