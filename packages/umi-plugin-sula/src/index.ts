@@ -11,7 +11,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 export default function (api: IApi) {
   api.describe({
-    key: 'bs-sula',
+    key: 'rofo-sula',
     config: {
       schema(joi) {
         return joi.object({
@@ -44,7 +44,7 @@ export default function (api: IApi) {
 
   api.addEntryCodeAhead(() =>
     `
-import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'bs-sula';
+import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'rofo-sula';
 
 registerFieldPlugins();
 registerRenderPlugins();

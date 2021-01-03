@@ -1,5 +1,5 @@
 {
-  "name": "bs-sula",
+  "name": "rofo-sula",
   "version": "0.0.4",
   "module": "./es/index.js",
   "types": "typings/index.d.ts",
@@ -22,5 +22,6 @@
     "es",
     "typings"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "99a9310d291db83c6b6c48217462d5a5c6984f3a"
 }
