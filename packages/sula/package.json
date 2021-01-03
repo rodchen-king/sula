@@ -1,6 +1,6 @@
 {
   "name": "rofosula",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "module": "./es/index.js",
   "types": "typings/index.d.ts",
   "description": "rofosula",
