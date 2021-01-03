@@ -1,10 +1,17 @@
+/*
+ * @Description: 
+ * @Author: rodchen
+ * @Date: 2020-12-08 09:10:30
+ * @LastEditTime: 2021-01-03 20:59:23
+ * @LastEditors: rodchen
+ */
 import { join } from 'path';
 import { IApi } from 'umi';
 import { readFileSync, writeFileSync } from 'fs';
 
 export default function (api: IApi) {
   api.describe({
-    key: 'sula',
+    key: 'bs-sula',
     config: {
       schema(joi) {
         return joi.object({
@@ -37,7 +44,7 @@ export default function (api: IApi) {
 
   api.addEntryCodeAhead(() =>
     `
-import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'sula';
+import { registerFieldPlugins, registerRenderPlugins, registerActionPlugins, registerFilterPlugins } from 'bs-sula';
 
 registerFieldPlugins();
 registerRenderPlugins();
