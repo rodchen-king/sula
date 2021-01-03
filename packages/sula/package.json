@@ -1,9 +1,9 @@
 {
-  "name": "sula",
-  "version": "1.0.0-beta.19",
+  "name": "bs-sula",
+  "version": "0.0.1",
   "module": "./es/index.js",
   "types": "typings/index.d.ts",
-  "description": "sula",
+  "description": "bs-sula",
   "peerDependencies": {
     "@ant-design/icons": "^4.0.0",
     "antd": "^4.0.0",
