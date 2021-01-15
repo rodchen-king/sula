@@ -12,7 +12,8 @@ export function registerFieldPlugin<Context = unknown>(pluginName: string) {
     sula.fieldType(pluginName, (ctx: Context, config = {} as FieldPlugin) => {
       const { mode, source, disabled } = ctx;
       const props = config.props || {};
-      const extraProps = { disabled } as any;
+      const extraProps = { disabled, allowClear: true } as any;
+
       if (mode === 'view') {
         extraProps.disabled = true;
       }
